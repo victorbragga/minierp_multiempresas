@@ -13,8 +13,8 @@ CREATE PROCEDURE PROC_PLAN_ORDEM (@COD_EMPRESA INT,
                                   @ANO  VARCHAR(4)) 
 AS 
  BEGIN 
- --Se ativada esta instrução tem por objetivo informar 
- --em tela a quantidade de linhas afetadas pela transação 
+ --Se ativada esta instruÃ§Ã£o tem por objetivo informar 
+ --em tela a quantidade de linhas afetadas pela transaÃ§Ã£o 
     SET nocount ON 
 	DECLARE @ERRO_INTERNO INT;
  BEGIN TRANSACTION 
